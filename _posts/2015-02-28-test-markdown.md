@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Test markdown
-subtitle: Each post also has a subtitle
+title: My First Data Storytelling Project
+subtitle: Looking at key features for popular board games
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
-tags: [test]
+tags: [board games, storytelling, data analysis]
 comments: true
 ---
 
-You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+Quick summary
 
 **Here is some bold text**
 
@@ -52,17 +52,19 @@ foo(3)
 
 And here is the same code yet again but with line numbers:
 
-{% highlight javascript linenos %}
+{% highlight python linenos %}
 var foo = function(x) {
   return(x + 5);
 }
 foo(3)
 {% endhighlight %}
 
-## Boxes
-You can add notification, warning and error boxes like this:
 
-### Notification
+ ````
+ ## Boxes
+ You can add notification, warning and error boxes like this:
+
+ ### Notification
 
 {: .box-note}
 **Note:** This is a notification box.
@@ -75,4 +77,6 @@ You can add notification, warning and error boxes like this:
 ### Error
 
 {: .box-error}
+
 **Error:** This is an error box.
+````
