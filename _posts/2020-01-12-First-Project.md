@@ -9,3 +9,7 @@ comments: true
 ---
 
   The projects explores the, ["BoardGameGeek Reviews"](https://www.kaggle.com/jvanelteren/boardgamegeek-reviews#games_detailed_info.csv) data set on Kaggle.com, provided by Jesse van Elteren, and looks at key features of the top 100 games and what to consider when creating future games.
+  
+  Question: What how do features from various board games affect their popularity?
+  
+  This project originaly started with three different data sets but after reviewing and anaylizing them I determined that they had similar data
